@@ -76,27 +76,29 @@ class Insert:
 
 
 
-# Criar no
+if __name__ == "__main__":
 
-terceiro_no = Node("Yuri")
-segundo_no  = Node("Rita")
-primeiro_no = Node("Tete")
+# Create Node 
+
+    terceiro_no = Node("TestN2")
+    segundo_no  = Node("TestN")
+    primeiro_no = Node("Cy")
 
 # Linkar 
 
-linkedlist_01 = LinkedList()
+    linkedlist_01 = LinkedList()
 
-# Add a uma Linkedlist 
+# Add  Linkedlist 
 
-conn_01 = Insert(node=terceiro_no, linked=linkedlist_01)
-conn_01.beginning()
+    conn_01 = Insert(node=terceiro_no, linked=linkedlist_01)
+    conn_01.beginning()
 
-conn_02 = Insert(node=segundo_no, linked=linkedlist_01)
-conn_02.beginning()
+    conn_02 = Insert(node=segundo_no, linked=linkedlist_01)
+    conn_02.beginning()
 
-conn_03 = Insert(node=primeiro_no, linked=linkedlist_01)
-conn_03.beginning()
+    conn_03 = Insert(node=primeiro_no, linked=linkedlist_01)
+    conn_03.beginning()
 
-conn_03.end()
+    conn_03.end()
 
-print(linkedlist_01.head.next.next.next)
+    print(linkedlist_01.head.next.next.next)
