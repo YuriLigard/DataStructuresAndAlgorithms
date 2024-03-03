@@ -1,9 +1,18 @@
-import sys
-sys.path.append('StructuresAndAlgotithms/LinkedList/')
+# **FIFO:** First-In First-Out
 
-from linkedlist import Node
+- Can only **insert** at the **end** (**Enqueue**)
 
+- Can only **remove** from the head (**Dequeue**)
 
+- Other kinds of queues:
+
+	- Doubly ended queues
+
+	- Circular queues
+
+	- Priority queues
+
+```Python
 class Queue:
     
     def __init__(self) -> None:
@@ -21,7 +30,7 @@ class Queue:
             self.tail = new_node
             self.head = new_node
             
-    def dequeue(self):
+    def dequeeu(self):
         
         if self.head:
             deq = self.head
@@ -33,25 +42,7 @@ class Queue:
     def read(self):
         
         if self.head:
-            return (self.head.data, self.tail.data)
+            return self.head
         else:
             return None
-        
-        
-if __name__ == "__main__":
-    
-    queue = Queue()
-    
-    queue.enqueue("Bass")
-    queue.enqueue("Gita")
-    queue.enqueue("Drum")
-    queue.enqueue("Tec")
-
-
-    print(queue.read())
-
-    
-
-
-    
-    
+```

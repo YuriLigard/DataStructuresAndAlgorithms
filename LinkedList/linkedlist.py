@@ -80,9 +80,9 @@ if __name__ == "__main__":
 
 # Create Node 
 
-    terceiro_no = Node("TestN2")
-    segundo_no  = Node("TestN")
-    primeiro_no = Node("Cy")
+    terceiro_no = Node('Rock')
+    segundo_no  = Node('Soul')
+    primeiro_no = Node('Bass')
 
 # Linkar 
 

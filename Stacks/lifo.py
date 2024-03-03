@@ -44,10 +44,10 @@ class Stack:
 if __name__ == "__main__":
     stack = Stack()
 
-    stack.push("Yuri")
-    stack.push("Cynara")
+    stack.push('Bass')
+    stack.push('Drum')
     
-    print(f'removido: {stack.pop()}')
+    print(f'Rm: {stack.pop()}')
 
     print(stack.read())
 
